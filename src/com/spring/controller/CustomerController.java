@@ -20,6 +20,13 @@ import com.spring.dao.CustomerDao;
 import com.spring.entity.Customer;
 import com.spring.service.CustomerService;
 
+
+/**
+ * JARs required
+ * Spring 5.2.5
+ * c3p0 0.9.5.3 - Hibernate
+ * AspectJweaver 1.9.5
+ */
 @Controller
 @RequestMapping("/customer")
 public class CustomerController {
